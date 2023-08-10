@@ -9,7 +9,7 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.0"),
-        .package(url: "https://github.com/apocolipse/Thrift-Swift.git", from: "1.1.0"),
+        .package(url: "https://github.com/apocolipse/Thrift-Swift.git", from: "1.2.0"),
     ],
     targets: [
         .target(
