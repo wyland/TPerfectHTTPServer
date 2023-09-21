@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "TPerfectHTTPServer",
-            dependencies: ["PerfectHTTPServer", "Thrift"],
+            dependencies: ["Perfect-HTTPServer", "Thrift"],
             path: "Sources"),
     ],
     swiftLanguageVersions: [.v4_2]
