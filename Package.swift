@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "TPerfectHTTPServer", targets: ["TPerfectHTTPServer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.0"),
+        .package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.23"),
         .package(url: "https://github.com/wyland/Thrift-Swift.git", branch: "wyland-swiftversion"),
     ],
     targets: [
