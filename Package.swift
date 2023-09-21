@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.7
 
 import PackageDescription
 
@@ -9,7 +9,7 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.0"),
-        .package(url: "https://github.com/wyland/Thrift-Swift.git", from: "1.2.1"),
+        .package(url: "https://github.com/wyland/Thrift-Swift.git", branch: "wyland-swiftversion"),
     ],
     targets: [
         .target(
